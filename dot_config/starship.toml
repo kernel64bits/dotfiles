@@ -24,7 +24,7 @@ $docker_context\
 [](fg:blue bg:mauve)\
 $time\
 [ ](fg:mauve)\
-$line_break$character"""
+$character"""
 
 [os]
 disabled = false
@@ -46,12 +46,6 @@ format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
 
-[directory.substitutions]
-"Documents" = "󰈙"
-"Downloads" = ""
-"Music" = "󰝚"
-"Pictures" = ""
-"Developer" = "󰲋"
 
 [git_branch]
 symbol = ""
@@ -119,7 +113,7 @@ style = "bg:mauve"
 format = "[[  $time ](fg:base bg:mauve)]($style)"
 
 [line_break]
-disabled = false
+disabled = true
 
 [character]
 disabled = false
